@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Length" />
+
+    <EditText
+        android:id="@+id/et_panjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Width" />
+
+    <EditText
+        android:id="@+id/et_lebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Height" />
+
+    <EditText
+        android:id="@+id/et_tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volume" />
+
+    <EditText
+        android:id="@+id/et_volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_CalLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Length" />
+
+    <Button
+        android:id="@+id/btn_CalWidth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Width" />
+
+    <Button
+        android:id="@+id/btn_CalHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Height" />
+
+    <Button
+        android:id="@+id/btn_CalVolume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Volume" />
+
+
+</LinearLayout>
